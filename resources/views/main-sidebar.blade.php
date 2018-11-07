@@ -16,19 +16,17 @@
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
-            <li class="active">
-              <a href="index.html"><i class="ion ion-speedometer"></i><span>Dashboard</span></a>
-            </li>
+            <li class="active"><a href="home"><i class="ion ion-speedometer"></i><span>Dashboard</span></a></li>
           <li class="menu-header">Ferramentas</li>
             <li>
               <a href="#" class="has-dropdown"><i class="ion ion-ios-albums-outline"></i><span>Atendimentos</span></a>
               <ul class="menu-dropdown">
-                <li><a href="new-patient.blade.php"><i class="ion ion-plus-circled"></i> Novo Atendimento</a></li>
-                <li><a href="historic.html"><i class="ion ion-ios-list-outline"></i> Histórico</a></li>
+                <li><a href="new-patient"><i class="ion ion-plus-circled"></i> Novo Atendimento</a></li>
+                <li><a href="historic"><i class="ion ion-ios-list-outline"></i> Histórico</a></li>
               </ul>
             </li>
             <li>
-              <a href=""><i class="ion ion-stats-bars"></i><span>Gráficos</span></a>
+              <a href="graphs"><i class="ion ion-stats-bars"></i><span>Gráficos</span></a>
             </li>
             <li class="menu-header">More</li>
             <li>

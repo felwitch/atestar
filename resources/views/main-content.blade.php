@@ -6,7 +6,7 @@
 
   @include('main-header'); 
 
-  @include('main-sidebar');
+  @include('main-sidebar ');
 
     <div class="main-content">
           <section class="section">
@@ -44,8 +44,10 @@
                   </div>
                 </div>
               </div>
-             
-                      
+              <script type="text/javascript">
+              console.log('oieee');
+              </script>
+                    
             </div>
             <div class="row">
               <div class="col-lg-8 col-md-12 col-12 col-sm-12">
