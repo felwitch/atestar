@@ -1,20 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" name="viewport">
-  <title>Nova Consulta &mdash; Atestar</title>
+@include('main-style'); 
+  
+<div id="app">
+  <div class="main-wrapper">
 
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/demo.css" rel="stylesheet">
+  @include('main-header'); 
 
-  <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+  @include('main-sidebar ');
 
-</head> 
-<body>
-      <div class="main-content">
+  <div class="main-content">
         <section class="section">
           <h1 class="section-header">
             <div>Nova Consulta</div>
@@ -69,6 +63,13 @@
              <a href="#" class="btn btn-secondary">Gerar Atestado</a>
           </div>
         </section>
-      </div>
+  </div>
+
+  @include('main-footer');
+
+</div>
+</div>
+
+
 </body>
 </html>

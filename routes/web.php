@@ -26,3 +26,11 @@ Route::get('/new-patient', function () {
 Route::get('/main-sidebar', function () {
     return view('main-sidebar');
 });
+
+Route::get('/graphs', function () {
+    return view('graphs');
+});
+
+Route::get('/historic', function () {
+    return view('historic');
+});
